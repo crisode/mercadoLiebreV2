@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- HEAD -->
+      <%- include("partials/head") %>
+      <link rel="stylesheet" href="../stylesheets/productos.css">
+      
+</head>
+<body>
+    <!-- HEADER -->
+    <%-include("partials/header") %> 
+    <!-- HEADER -->
+<!-- <!-- <!-- PRODUCTO -->
+<div class="container products-wrapper">
+    <div class="row ">
+        <div class="">
+            <h2 class="products-title"><%= id.name %> </h2>
+        </div> 
+            <div class="col-12 col-sm-6 col-lg-8 ">
+                <section class="product-box">
+                    <a href="">
+                        <figure class="">
+                            <img src="/images/<%=id.image%>" alt="imagen de producto">
+                        </figure>
+                        <article class="product-box_data">
+                            <h2>
+                                <%=id.price%>
+                            </h2>
+                            <span> <%= id.discount %> % OFF</span>
+                            <p> <%= id.description %> </p>
+                            <button type="button" class="btn btn-primary">COMPRAR</button>
+                        </article>
+                    </a>
+                </section>
+            </div>
+    </div>
+</div>
+
+
+<!-- PRODUCTO -->
+
+
+
+   <!-- FOOTER -->
+   <%- include("partials/footer") %> 
+   <!-- FOOTER -->
+</body>
+</html>
+
